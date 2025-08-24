@@ -1,10 +1,24 @@
-- name: Pull from HF Space then push
-  env:
-    HF_TOKEN: ${{ secrets.HF_TOKEN }}
-  run: |
-    git config user.name "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-    git remote add space https://franzxml:${HF_TOKEN}@huggingface.co/spaces/franzxml/Pemrograman-Berorientasi-Objek
-    git fetch space main
-    git rebase space/main || git rebase --abort
-    git push space HEAD:main
+name: Deploy to HF Space
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to HF Space (force)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add space https://franzxml:${HF_TOKEN}@huggingface.co/spaces/franzxml/Pemrograman-Berorientasi-Objek
+          git push --force space HEAD:main
