@@ -1,9 +1,10 @@
-- name: Push to HF Space (force)
+- name: Pull from HF Space then push
   env:
     HF_TOKEN: ${{ secrets.HF_TOKEN }}
   run: |
     git config user.name "github-actions[bot]"
     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
     git remote add space https://franzxml:${HF_TOKEN}@huggingface.co/spaces/franzxml/Pemrograman-Berorientasi-Objek
-    # Dorong branch lokal HEAD ke main di Space dan timpa commit awal README
-    git push --force space HEAD:main
+    git fetch space main
+    git rebase space/main || git rebase --abort
+    git push space HEAD:main
