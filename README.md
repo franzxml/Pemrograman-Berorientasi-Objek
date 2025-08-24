@@ -2,7 +2,7 @@
 title: Pemrograman Berorientasi Objek (PHP)
 emoji: 🐘
 colorFrom: indigo
-colorTo: cyan
+colorTo: blue
 sdk: docker
 pinned: false
 ---
@@ -11,7 +11,7 @@ pinned: false
 
 Repositori contoh tugas:
 - `index.php` dan `home.php` sederhana.
-- Deploy otomatis ke **Hugging Face Spaces** (type: Docker) via **Connect to GitHub**.
+- Deploy otomatis ke **Hugging Face Spaces** (type: Docker) via GitHub Actions.
 
 ## Run lokal
 ```bash
