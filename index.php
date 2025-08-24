@@ -19,7 +19,7 @@ if ($page === 'home') {
   </style>
 </head>
 <body>
-  <h1>Halo dari index.php 👋</h1>
+  <h1>Halo selamat datang di index.php 👋</h1>
   <div class="card">
     <p>Ini halaman index sederhana untuk tugas PBO (PHP). Coba buka halaman Home:</p>
     <ul>
