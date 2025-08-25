@@ -19,12 +19,11 @@ if ($page === 'home') {
   </style>
 </head>
 <body>
-  <h1>Halo selamat datang di index.php 👋</h1>
+  <h1>Halo, selamat datang di situs yang dibuat oleh Frans 👋</h1>
   <div class="card">
-    <p>Ini halaman index sederhana untuk tugas PBO (PHP). Coba buka halaman Home:</p>
+    <p>Ini adalah situs untuk memenuhi kebutuhan tugas PBO, silahkan buka halaman di bawah ini:</p>
     <ul>
-      <li><a href="/home.php">/home.php</a></li>
-      <li><a href="/?page=home">/?page=home</a> (routing query)</li>
+      <li><a href="/home.php">/Home</a></li>
     </ul>
   </div>
 </body>
