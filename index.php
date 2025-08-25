@@ -21,7 +21,7 @@ if ($page === 'home') {
 <body>
   <h1 style= "color:blue;">Halo, selamat datang di situs yang dibuat oleh Frans 👋</h1>
   <div class="card">
-    <p>Ini adalah situs untuk memenuhi kebutuhan tugas PBO, silahkan buka halaman di bawah ini:</p>
+    <p>Ini adalah situs untuk memenuhi kebutuhan tugas PBO. silahkan buka halaman di bawah ini:</p>
     <ul>
       <li><a href="/home.php">/Home</a></li>
     </ul>
