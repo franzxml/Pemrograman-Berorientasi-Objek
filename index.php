@@ -19,7 +19,7 @@ if ($page === 'home') {
   </style>
 </head>
 <body>
-  <h1>Halo, selamat datang di situs yang dibuat oleh Frans 👋</h1>
+  <h1 style= "color:blue;">Halo, selamat datang di situs yang dibuat oleh Frans 👋</h1>
   <div class="card">
     <p>Ini adalah situs untuk memenuhi kebutuhan tugas PBO, silahkan buka halaman di bawah ini:</p>
     <ul>
