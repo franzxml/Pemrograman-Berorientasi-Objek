@@ -23,7 +23,7 @@ if ($page === 'home') {
   <div class="card">
     <p>Ini adalah situs untuk memenuhi kebutuhan tugas PBO. silahkan buka halaman di bawah ini:</p>
     <ul>
-      <li><a href="/home.php">/Home</a></li>
+      <li><a href="/home.php">Home</a></li>
     </ul>
   </div>
 </body>

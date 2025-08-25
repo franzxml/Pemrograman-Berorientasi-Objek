@@ -14,6 +14,7 @@ $date = date('Y-m-d H:i:s');
 </head>
 <body>
   <h1>Selamat datang di Home</h1>
+  <p>Berikut adalah waktu saat ini:</p>
   <p>Waktu server: <strong><?php echo htmlspecialchars($date, ENT_QUOTES, 'UTF-8'); ?></strong></p>
   <p><a href="/">← Kembali ke index</a></p>
 </body>
