@@ -9,7 +9,7 @@ pinned: false
 
 # OOP PHP Space (Hugging Face)
 
-Repositori contoh tugas:
+Repositori tugas:
 - `index.php` dan `home.php` sederhana.
 - Deploy otomatis ke **Hugging Face Spaces** (type: Docker) via GitHub Actions.
 
