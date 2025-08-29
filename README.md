@@ -1,5 +1,5 @@
 ---
-title: Pemrograman Berorientasi Objek (PHP)
+title: pemrograman_berorientasi_objek
 emoji: 🐘
 colorFrom: indigo
 colorTo: blue
@@ -9,11 +9,8 @@ pinned: false
 
 # OOP PHP Space (Hugging Face)
 
-Repositori tugas:
-- `index.php` dan `home.php` sederhana.
-- Deploy otomatis ke **Hugging Face Spaces** (type: Docker) via GitHub Actions.
+Repositori Tugas Pemrograman Berorientasi Objek
 
 ## Run lokal
 ```bash
 php -S 0.0.0.0:7860
-# buka http://localhost:7860
