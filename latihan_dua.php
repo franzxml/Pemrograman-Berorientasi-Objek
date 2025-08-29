@@ -5,10 +5,10 @@ class Produk {
     public $stok;
 
     public function tampilkanInfo() {
-        return "Berikut adalah produk milik kami: ". ($this->nama) . "Berjumlah: " . ($this->stok) . "Dengan harga: " . ($this->harga);
+        return "Berikut adalah produk milik kami: ". ($this->nama) ." " .  "Berjumlah: " . ($this->stok) . " ". "Dengan harga: " . ($this->harga);
     }
     public function beliProduk($jumlah) {
-        return "Jika anda membeli dengan jumlah: " . ($jumlah) . "Maka stok tersisa: " . ($this->stok - $jumlah);
+        return "Jika anda membeli dengan jumlah: " . ($jumlah) . " ". "Maka stok tersisa: " . ($this->stok - $jumlah);
     }
 }
 $p = new Produk();
