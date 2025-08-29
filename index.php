@@ -24,6 +24,13 @@ if ($page === 'home') {
     <p>Ini adalah situs untuk memenuhi kebutuhan tugas PBO. silahkan buka halaman di bawah ini:</p>
     <ul>
       <li><a href="/home.php">Home</a></li>
+    <p>Berikut adalah tugas pada pertemuan ke 3:</p>
+    <ul>
+      <li><a href="/latihan_satu.php">Latihan Satu</a></li>
+      <li><a href="/latihan_dua.php">Latihan Dua</a></li>
+      <li><a href="/latihan_tiga.php">Latihan Tigas</a></li>
+      <li><a href="/tugas_mandiri.php">Tugas Mandiri</a></li>
+    </ul>
     </ul>
   </div>
 </body>
