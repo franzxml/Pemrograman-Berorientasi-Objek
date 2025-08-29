@@ -28,7 +28,7 @@ if ($page === 'home') {
     <ul>
       <li><a href="/latihan_satu.php">Latihan Satu</a></li>
       <li><a href="/latihan_dua.php">Latihan Dua</a></li>
-      <li><a href="/latihan_tiga.php">Latihan Tigas</a></li>
+      <li><a href="/latihan_tiga.php">Latihan Tiga</a></li>
       <li><a href="/tugas_mandiri.php">Tugas Mandiri</a></li>
     </ul>
     </ul>
