@@ -4,7 +4,7 @@ class PersegiPanjang {
     public $lebar;
     
     public function luas() {
-        return "Luas persegi panjang adalah: " . ($this->panjang * $this->lebar). " ";
+        return "Luas persegi panjang adalah: " . ($this->panjang * $this->lebar).",". " ";
     }
     public function keliling() {
         return "Keliling persegi panjang adalah: " . (2 * ($this->panjang + $this->lebar));
