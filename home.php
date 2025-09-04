@@ -1,5 +1,4 @@
 <?php
-// Preserve original logic
 $date = date('Y-m-d H:i:s');
 ?>
 <!doctype html>
@@ -7,11 +6,9 @@ $date = date('Y-m-d H:i:s');
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home — Pemrograman Web Dasar</title>
+  <title>Home — Pemrograman Berorientasi Objek</title>
 
-  <!-- Bootstrap 5 (CDN) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 
   <style>
@@ -34,12 +31,11 @@ $date = date('Y-m-d H:i:s');
   </style>
 </head>
 <body class="d-flex flex-column">
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg glass sticky-top py-3">
     <div class="container">
       <a class="navbar-brand fw-semibold text-white" href="/">
         <i class="bi bi-code-square brand"></i>
-        <span class="ms-2">Pemrograman Web Dasar</span>
+        <span class="ms-2">Pemrograman Berorientasi Objek</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
         <span class="navbar-toggler-icon"></span>
@@ -53,7 +49,6 @@ $date = date('Y-m-d H:i:s');
     </div>
   </nav>
 
-  <!-- Hero / Content -->
   <main class="flex-grow-1 d-flex align-items-center py-5">
     <div class="container">
       <div class="row justify-content-center">
@@ -86,7 +81,7 @@ $date = date('Y-m-d H:i:s');
                   <div class="d-flex align-items-center">
                     <i class="bi bi-check2-circle brand me-2"></i>
                     <div>
-                      <div class="fw-semibold">Ringan & cepat</div>
+                      <div class="fw-semibold">Situs Berjalan Ringan & Cepat</div>
                       <div class="small text-white-50">Hanya memanfaatkan CDN Bootstrap & Icons.</div>
                     </div>
                   </div>
@@ -113,7 +108,7 @@ $date = date('Y-m-d H:i:s');
 
   <footer class="py-4 mt-auto">
     <div class="container text-center text-white-50 small">
-      <div>© <?php echo date('Y'); ?> Pemrograman Web Dasar • Dibuat dengan <i class="bi bi-heart-fill brand"></i></div>
+      <div> <?php echo date('Y'); ?> Pemrograman Berorientasi Objek <i class="bi bi-heart-fill brand"></i></div>
       <div class="mt-1"><a class="text-decoration-underline text-white-50" href="https://getbootstrap.com/">Bootstrap</a> · <a class="text-decoration-underline text-white-50" href="https://icons.getbootstrap.com/">Bootstrap Icons</a></div>
     </div>
   </footer>
