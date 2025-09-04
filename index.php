@@ -32,8 +32,8 @@ if ($page === 'home') {
       <li><a href="/tugas_mandiri.php">Tugas Mandiri</a></li>
     <p>Berikut adalah tugas Properti Method dan Constructor</p>
     <ul>
-      <li><a href="/tugas_properti_method_dan_constructor/class_segitiga.php"></a></li>
-      <li><a href="/tugas_properti_method_dan_constructor/objek_segitiga.php"></a></li>
+      <li><a href="/tugas_properti_method_dan_constructor/class_segitiga.php">Class Segitiga</a></li>
+      <li><a href="/tugas_properti_method_dan_constructor/objek_segitiga.php"></a>Objek Segitiga [Lihat output disini]</li>
     </ul>
     </ul>
     </ul>
