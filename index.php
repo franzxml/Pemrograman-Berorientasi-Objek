@@ -64,7 +64,7 @@ if ($page === 'home') {
       <div class="row align-items-center g-4">
         <div class="col-lg-7">
           <h1 class="display-5 fw-bold">Halo! 👋</h1>
-          <p class="lead text-white-50">Ini adalah beranda indeks untuklatihan dan tugas. Dibuat oleh Frans Maylandgo Saragih.</p>
+          <p class="lead text-white-50">Ini adalah beranda indeks untuk latihan dan tugas. Dibuat oleh Frans Maylandgo Saragih.</p>
           <div class="d-flex gap-2">
             <a href="#latihan" class="btn btn-primary btn-lg"><i class="bi bi-rocket-takeoff"></i> Ke Latihan</a>
             <a href="#tugas" class="btn btn-outline-light btn-lg"><i class="bi bi-journal-code"></i> Ke Tugas</a>
@@ -153,7 +153,7 @@ if ($page === 'home') {
 
   <footer class="py-4 mt-auto">
     <div class="container text-center text-white-50 small">
-      <div> <?php echo date('Y'); ?> Pemrograman Berorientasi Objek<i class="bi bi-heart-fill accent"></i></div>
+      <div> <?php echo date('Y'); ?> Pemrograman Berorientasi Objek <i class="bi bi-heart-fill accent"></i></div>
       <div class="mt-1"><a class="text-decoration-underline text-white-50" href="https://getbootstrap.com/">Bootstrap</a> · <a class="text-decoration-underline text-white-50" href="https://icons.getbootstrap.com/">Bootstrap Icons</a></div>
     </div>
   </footer>
