@@ -10,7 +10,7 @@ if ($page === 'home') {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard Praktikum Pemrograman Berorientasi Objek</title>
+  <title>Dashboard Pemrograman Berorientasi Objek</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -44,7 +44,7 @@ if ($page === 'home') {
     <div class="container">
       <a class="navbar-brand fw-semibold text-white" href="/">
         <i class="bi bi-braces brand"></i>
-        <span class="ms-2">Pemrograman Web Dasar</span>
+        <span class="ms-2">Pemrograman Berorientasi Objek</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
         <span class="navbar-toggler-icon"></span>
@@ -64,7 +64,7 @@ if ($page === 'home') {
       <div class="row align-items-center g-4">
         <div class="col-lg-7">
           <h1 class="display-5 fw-bold">Halo! 👋</h1>
-          <p class="lead text-white-50">Ini adalah beranda indeks untuk materi latihan dan tugas. Semua tautan di bawah mengikuti struktur berkas dari versi cadanganmu.</p>
+          <p class="lead text-white-50">Ini adalah beranda indeks untuklatihan dan tugas. Dibuat oleh Frans Maylandgo Saragih.</p>
           <div class="d-flex gap-2">
             <a href="#latihan" class="btn btn-primary btn-lg"><i class="bi bi-rocket-takeoff"></i> Ke Latihan</a>
             <a href="#tugas" class="btn btn-outline-light btn-lg"><i class="bi bi-journal-code"></i> Ke Tugas</a>
@@ -74,12 +74,11 @@ if ($page === 'home') {
           <div class="p-4 rounded-4 glass border text-white-50">
             <div class="d-flex align-items-center mb-2">
               <i class="bi bi-info-circle brand fs-2"></i>
-              <h2 class="h5 ms-2 mb-0 text-white">Catatan</h2>
+              <h2 class="h5 ms-2 mb-0 text-white">Informasi</h2>
             </div>
             <ul class="small mb-0">
-              <li>Responsif untuk mobile–desktop.</li>
-              <li>Desain gelap dengan nuansa biru–ungu.</li>
-              <li>Ikon untuk memperjelas tipe tautan.</li>
+              <li>Nama: Frans Maylandgo Saragih</li>
+              <li>NIM: H1101241059</li>
             </ul>
           </div>
         </div>
@@ -94,7 +93,7 @@ if ($page === 'home') {
           <div class="glass rounded-4 p-4">
             <div class="d-flex align-items-center mb-3">
               <i class="bi bi-mortarboard fs-3 brand"></i>
-              <h2 class="h4 ms-2 mb-0 text-white">Latihan</h2>
+              <h2 class="h4 ms-2 mb-0 text-white">Latihan pada pertemuan 3</h2>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3">
               <div class="col">
@@ -117,7 +116,7 @@ if ($page === 'home') {
               </div>
               <div class="col">
                 <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/tugas_pertemuan_tiga/manajemen_perpustakaan.php">
-                  <span><i class="bi bi-bookshelf"></i> Latihan Empat — Manajemen Perpustakaan</span>
+                  <span><i class="bi bi-bookshelf"></i> Tugas Mandiri — Manajemen Perpustakaan</span>
                   <i class="bi bi-arrow-right-short fs-4"></i>
                 </a>
               </div>
@@ -129,7 +128,7 @@ if ($page === 'home') {
           <div class="glass rounded-4 p-4">
             <div class="d-flex align-items-center mb-3">
               <i class="bi bi-journal-text fs-3 accent"></i>
-              <h2 class="h4 ms-2 mb-0 text-white">Tugas</h2>
+              <h2 class="h4 ms-2 mb-0 text-white">Tugas Properti Method dan Constructor</h2>
             </div>
             <p class="text-white-50">Tugas <em>Properti, Method,</em> &amp; <em>Constructor</em>:</p>
             <div class="row row-cols-1 row-cols-md-2 g-3">
@@ -141,7 +140,7 @@ if ($page === 'home') {
               </div>
               <div class="col">
                 <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/tugas_properti_method_dan_constructor/objek_segitiga.php">
-                  <span><i class="bi bi-bounding-box-circles"></i> Objek Segitiga (Lihat output)</span>
+                  <span><i class="bi bi-bounding-box-circles"></i> Objek Segitiga (Untuk melihat output disini.)</span>
                   <i class="bi bi-arrow-right-short fs-4"></i>
                 </a>
               </div>
@@ -154,7 +153,7 @@ if ($page === 'home') {
 
   <footer class="py-4 mt-auto">
     <div class="container text-center text-white-50 small">
-      <div>© <?php echo date('Y'); ?> Pemrograman Web Dasar • Dibuat dengan <i class="bi bi-heart-fill accent"></i></div>
+      <div> <?php echo date('Y'); ?> Pemrograman Berorientasi Objek<i class="bi bi-heart-fill accent"></i></div>
       <div class="mt-1"><a class="text-decoration-underline text-white-50" href="https://getbootstrap.com/">Bootstrap</a> · <a class="text-decoration-underline text-white-50" href="https://icons.getbootstrap.com/">Bootstrap Icons</a></div>
     </div>
   </footer>
