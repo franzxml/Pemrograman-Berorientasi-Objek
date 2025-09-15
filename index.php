@@ -11,11 +11,8 @@ if ($page === 'home') {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dashboard Pemrograman Berorientasi Objek</title>
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-
   <style>
     :root{
       --bg: #0b1020;
@@ -117,6 +114,12 @@ if ($page === 'home') {
               <div class="col">
                 <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/tugas_pertemuan_tiga/manajemen_perpustakaan.php">
                   <span><i class="bi bi-bookshelf"></i> Tugas Mandiri — Manajemen Perpustakaan</span>
+                  <i class="bi bi-arrow-right-short fs-4"></i>
+                </a>
+              </div>
+              <div class="col">
+                <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/inheritance/latihan_inheritance.php">
+                  <span><i class="bi bi-diagram-3"></i> Latihan Inheritance</span>
                   <i class="bi bi-arrow-right-short fs-4"></i>
                 </a>
               </div>
