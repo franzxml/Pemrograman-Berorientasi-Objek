@@ -51,6 +51,7 @@ if ($page === 'home') {
           <li class="nav-item"><a class="nav-link text-white-50" href="?page=home">Home</a></li>
           <li class="nav-item"><a class="nav-link text-white-50" href="#latihan">Latihan</a></li>
           <li class="nav-item"><a class="nav-link text-white-50" href="#tugas">Tugas</a></li>
+          <li class="nav-item"><a class="nav-link text-white-50" href="#inheritance">Inheritance</a></li>
         </ul>
       </div>
     </div>
@@ -65,6 +66,7 @@ if ($page === 'home') {
           <div class="d-flex gap-2">
             <a href="#latihan" class="btn btn-primary btn-lg"><i class="bi bi-rocket-takeoff"></i> Ke Latihan</a>
             <a href="#tugas" class="btn btn-outline-light btn-lg"><i class="bi bi-journal-code"></i> Ke Tugas</a>
+            <a href="#inheritance" class="btn btn-outline-light btn-lg"><i class="bi bi-diagram-3"></i> Ke Inheritance</a>
           </div>
         </div>
         <div class="col-lg-5">
@@ -117,12 +119,6 @@ if ($page === 'home') {
                   <i class="bi bi-arrow-right-short fs-4"></i>
                 </a>
               </div>
-              <div class="col">
-                <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/inheritance/latihan_inheritance.php">
-                  <span><i class="bi bi-diagram-3"></i> Latihan Inheritance</span>
-                  <i class="bi bi-arrow-right-short fs-4"></i>
-                </a>
-              </div>
             </div>
           </div>
         </section>
@@ -144,6 +140,23 @@ if ($page === 'home') {
               <div class="col">
                 <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/tugas_properti_method_dan_constructor/objek_segitiga.php">
                   <span><i class="bi bi-bounding-box-circles"></i> Objek Segitiga (Untuk melihat output disini.)</span>
+                  <i class="bi bi-arrow-right-short fs-4"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="inheritance" class="col-12">
+          <div class="glass rounded-4 p-4">
+            <div class="d-flex align-items-center mb-3">
+              <i class="bi bi-diagram-3 fs-3 brand"></i>
+              <h2 class="h4 ms-2 mb-0 text-white">Latihan Inheritance</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-3">
+              <div class="col">
+                <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/inheritance/latihan_inheritance.php">
+                  <span><i class="bi bi-diagram-3"></i> Latihan Inheritance</span>
                   <i class="bi bi-arrow-right-short fs-4"></i>
                 </a>
               </div>
