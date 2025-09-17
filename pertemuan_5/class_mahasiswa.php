@@ -7,7 +7,7 @@ class Mahasiswa {
     public $keterangan;
     
     public function getKeterangan() {
-        return "Status mahasiswa atas nama " . $this->nama . " (" . $this->nim . ") adalah **" . $this->keterangan . "**. <br>";
+        return "Status mahasiswa atas nama " . $this->nama . " (" . $this->nim . ") adalah " . $this->keterangan . ". <br>";
     }
 }
 $mahasiswa1 = new Mahasiswa();
