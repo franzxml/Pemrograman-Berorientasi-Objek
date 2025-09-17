@@ -11,24 +11,24 @@ class Mahasiswa {
     }
 }
 $mahasiswa1 = new Mahasiswa();
-$mahasiswa1->nama = "Andi Pratama";
-$mahasiswa1->nim = "19050123";
-$mahasiswa1->prodi = "Teknik Informatika";
-$mahasiswa1->angkatan = 2019;
+$mahasiswa1->nama = "Arjun Maheswara Paundra";
+$mahasiswa1->nim = "H1101241056";
+$mahasiswa1->prodi = "Sistem Informasi";
+$mahasiswa1->angkatan = 2024;
 $mahasiswa1->keterangan = "Aktif";
 
 $mahasiswa2 = new Mahasiswa();
-$mahasiswa2->nama = "Budi Santoso";
-$mahasiswa2->nim = "20060245";
+$mahasiswa2->nama = "Frans Maylandgo Saragih";
+$mahasiswa2->nim = "H1101241059";
 $mahasiswa2->prodi = "Sistem Informasi";
-$mahasiswa2->angkatan = 2020;
+$mahasiswa2->angkatan = 2024;
 $mahasiswa2->keterangan = "Cuti";
 
 $mahasiswa3 = new Mahasiswa();
-$mahasiswa3->nama = "Citra Dewi";
-$mahasiswa3->nim = "18040367";
-$mahasiswa3->prodi = "Manajemen Bisnis";
-$mahasiswa3->angkatan = 2018;
+$mahasiswa3->nama = "Bagas";
+$mahasiswa3->nim = "H1101241022";
+$mahasiswa3->prodi = "Sistem Informasi";
+$mahasiswa3->angkatan = 2024;
 $mahasiswa3->keterangan = "Keluar";
 
 echo $mahasiswa1->getKeterangan();
