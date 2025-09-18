@@ -52,6 +52,7 @@ if ($page === 'home') {
           <li class="nav-item"><a class="nav-link text-white-50" href="#latihan">Latihan</a></li>
           <li class="nav-item"><a class="nav-link text-white-50" href="#tugas">Tugas</a></li>
           <li class="nav-item"><a class="nav-link text-white-50" href="#inheritance">Inheritance</a></li>
+          <li class="nav-item"><a class="nav-link text-white-50" href="#pertemuan5">Pertemuan 5</a></li>
         </ul>
       </div>
     </div>
@@ -67,6 +68,7 @@ if ($page === 'home') {
             <a href="#latihan" class="btn btn-primary btn-lg"><i class="bi bi-rocket-takeoff"></i> Ke Latihan</a>
             <a href="#tugas" class="btn btn-outline-light btn-lg"><i class="bi bi-journal-code"></i> Ke Tugas</a>
             <a href="#inheritance" class="btn btn-outline-light btn-lg"><i class="bi bi-diagram-3"></i> Ke Inheritance</a>
+            <a href="#pertemuan5" class="btn btn-outline-light btn-lg"><i class="bi bi-people"></i> Ke Pertemuan 5</a>
           </div>
         </div>
         <div class="col-lg-5">
@@ -157,6 +159,29 @@ if ($page === 'home') {
               <div class="col">
                 <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/inheritance/latihan_inheritance.php">
                   <span><i class="bi bi-diagram-3"></i> Latihan Inheritance</span>
+                  <i class="bi bi-arrow-right-short fs-4"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="pertemuan5" class="col-12">
+          <div class="glass rounded-4 p-4">
+            <div class="d-flex align-items-center mb-3">
+              <i class="bi bi-people fs-3 accent"></i>
+              <h2 class="h4 ms-2 mb-0 text-white">Pertemuan 5 — Class Mahasiswa</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-3">
+              <div class="col">
+                <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/pertemuan_5/class_mahasiswa.php">
+                  <span><i class="bi bi-person-badge"></i> Class Mahasiswa</span>
+                  <i class="bi bi-arrow-right-short fs-4"></i>
+                </a>
+              </div>
+              <div class="col">
+                <a class="card-link rounded-3 p-3 d-flex justify-content-between align-items-center" href="/pertemuan_5/class_mahasiswa_kedua.php">
+                  <span><i class="bi bi-person-video3"></i> Class Mahasiswa Kedua</span>
                   <i class="bi bi-arrow-right-short fs-4"></i>
                 </a>
               </div>
